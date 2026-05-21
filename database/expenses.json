@@ -1,0 +1,57 @@
+[
+  {
+  "_id": {
+    "$oid": "6a05565fb16e992069de034d"
+  },
+  "title": "Coffee",
+  "category": "Food",
+  "amount": 5.5,
+  "date": "2026-05-14",
+  "description": "Morning coffee",
+  "user_id": "6a055142b16e992069de0347"
+},
+{
+  "_id": {
+    "$oid": "6a07eb31b16e992069de0352"
+  },
+  "title": "dinner",
+  "category": "Food",
+  "amount": 100,
+  "date": "2026-05-15",
+  "description": "dinner with friends",
+  "user_id": "6a055142b16e992069de0347"
+},
+{
+  "_id": {
+    "$oid": "6a0932b8a689e44ba78bad7d"
+  },
+  "title": "rent ",
+  "category": "Housing",
+  "amount": 400,
+  "date": "2026-05-17",
+  "description": "",
+  "user_id": "6a055142b16e992069de0347"
+},
+{
+  "_id": {
+    "$oid": "6a09386fa689e44ba78bad83"
+  },
+  "title": "Sandwich",
+  "category": "Food",
+  "amount": 10,
+  "date": "2026-05-16",
+  "description": "Lunch",
+  "user_id": "6a0937dca689e44ba78bad80"
+},
+{
+  "_id": {
+    "$oid": "6a093891a689e44ba78bad85"
+  },
+  "title": "Doctor",
+  "category": "Healthcare",
+  "amount": 80,
+  "date": "2026-05-17",
+  "description": "",
+  "user_id": "6a0937dca689e44ba78bad80"
+}
+]
