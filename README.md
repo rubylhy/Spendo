@@ -109,9 +109,7 @@ Spendo/
 | Tracy Liu| `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
 
 ### App Feature Workload Allocation
-|Ruby Lee| - Registration/Login UI (form, validation, login modal)
- Logout button and session handling in UI
- Expense Management UI (create, edit, delete forms)
+|Ruby Lee| - Registration/Login UI (form, validation, login modal), Logout button and session handling in UI, Expense Management UI (create, edit, delete forms)
  Live Search (real-time filtering in UI)
  Category Filtering (frontend filter controls)
  Monthly History View (UI display of grouped data)
