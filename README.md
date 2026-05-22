@@ -4,16 +4,16 @@
  
 Spendo is a personal expense tracking web application designed to help users organise and manage their daily spending in a more structured way. The platform provides a centralised system for recording and reviewing financial information, helping users gain better awareness of their spending habits and make more informed financial decisions.
 
-Registration/Login: User authentication using password hashing and JWT to provide secure account access and ensure users can only access their own expense records.
-Logout: Allows users to securely end their session and protect account privacy.
-Expense Management: Users can create, view, update, and delete expense records with details including title, category, amount, date, and description.
-Live Search: A search bar that filters expense records in real time as users type, improving accessibility and efficiency.
-Category Filtering: Enables users to filter expense records based on categories for easier organisation and tracking.
-Monthly History Review: Allows users to review and track expenses across different months.
-Spending Trend Analytics: Displays a 6-month expense trend chart to help users identify spending patterns over time.
-Category Breakdown Analytics: Visualises expense distribution using category percentage summaries to improve financial awareness.
-Admin Dashbpard: Allows administrators to view and manage users, including total user count, emails, join dates, and deleting accounts.
-Activity Logging: Records and displays user activity history, including login/logout events and expense CRUD operations for monitoring and auditing purposes.
+- Registration/Login: User authentication using password hashing and JWT to provide secure account access and ensure users can only access their own expense records.
+- Logout: Allows users to securely end their session and protect account privacy.
+- Expense Management: Users can create, view, update, and delete expense records with details including title, category, amount, date, and description.
+- Live Search: A search bar that filters expense records in real time as users type, improving accessibility and efficiency.
+- Category Filtering: Enables users to filter expense records based on categories for easier organisation and tracking.
+- Monthly History Review: Allows users to review and track expenses across different months.
+- Spending Trend Analytics: Displays a 6-month expense trend chart to help users identify spending patterns over time.
+- Category Breakdown Analytics: Visualises expense distribution using category percentage summaries to improve financial awareness.
+- Admin Dashbpard: Allows administrators to view and manage users, including total user count, emails, join dates, and deleting accounts.
+- Activity Logging: Records and displays user activity history, including login/logout events and expense CRUD operations for monitoring and auditing purposes.
 
 ## 2. Technical Stack and Dependencies
  
