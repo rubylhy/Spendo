@@ -103,11 +103,6 @@ Spendo/
 
 ## 5. Workload Allocation
 
-| Member | Files Written |
-|---|---|
-| Ruby Lee | `frontend/src/App.jsx`, `frontend/src/pages/Dashboard.jsx`, `frontend/src/pages/AdminPage.jsx`, `frontend/src/components/LoginModal.jsx`, `database/expenses.json`, `database/users.json`, `database/activity.json` |
-| Tracy Liu| `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
-
 ### App Feature Workload Allocation
 Ruby Lee 
 - Registration/Login UI (form, validation, login modal)
@@ -129,3 +124,8 @@ Tracy Liu
 - Admin APIs (fetch users, delete users, fetch activity logs)
 - Activity logging system (record login/logout and CRUD actions)
 - Database management (MongoDB collections + schemas) 
+
+| Member | Files Written |
+|---|---|
+| Ruby Lee | `frontend/src/App.jsx`, `frontend/src/pages/Dashboard.jsx`, `frontend/src/pages/AdminPage.jsx`, `frontend/src/components/LoginModal.jsx`, `database/expenses.json`, `database/users.json`, `database/activity.json` |
+| Tracy Liu| `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
