@@ -2,20 +2,18 @@
  
 ## 1. Project Description
  
-**Problem this website solves:**
-Managing daily expenses is difficult without a clear system. 
-People often lose track of how much they spend, in which categories, 
-and how their habits change over time. Spendo solves this by providing a simple, 
-organised platform to log, review, and analyse personal expenses — all in one place.
- 
-Spendo allows users to record expenses with a title, category, amount, date, and description. 
-It provides live search, category filtering, and month-by-month history reviews. 
-Visual analytics including a 6-month trend chart and category percentage breakdown 
-help users understand their spending patterns. 
-A secure login system ensures each user's data is private, 
-and an admin dashboard allows management of all user accounts and activity logs.
+Spendo is a personal expense tracking web application designed to help users organise and manage their daily spending in a more structured way. The platform provides a centralised system for recording and reviewing financial information, helping users gain better awareness of their spending habits and make more informed financial decisions.
 
-app features: login-logout
+Registration/Login: User authentication using password hashing and JWT to provide secure account access and ensure users can only access their own expense records.
+Logout: Allows users to securely end their session and protect account privacy.
+Expense Management: Users can create, view, update, and delete expense records with details including title, category, amount, date, and description.
+Live Search: A search bar that filters expense records in real time as users type, improving accessibility and efficiency.
+Category Filtering: Enables users to filter expense records based on categories for easier organisation and tracking.
+Monthly History Review: Allows users to review and track expenses across different months.
+Spending Trend Analytics: Displays a 6-month expense trend chart to help users identify spending patterns over time.
+Category Breakdown Analytics: Visualises expense distribution using category percentage summaries to improve financial awareness.
+Admin Dashbpard: Allows administrators to view and manage users, including total user count, emails, join dates, and deleting accounts.
+Activity Logging: Records and displays user activity history, including login/logout events and expense CRUD operations for monitoring and auditing purposes.
 
 ## 2. Technical Stack and Dependencies
  
@@ -109,4 +107,23 @@ Spendo/
 |---|---|
 | Ruby Lee | `frontend/src/App.jsx`, `frontend/src/pages/Dashboard.jsx`, `frontend/src/pages/AdminPage.jsx`, `frontend/src/components/LoginModal.jsx`, `database/expenses.json`, `database/users.json`, `database/activity.json` |
 | Tracy Liu| `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
-feature allocation..
+App Feature Workload Allocation
+|Ruby Lee| - Registration/Login UI (form, validation, login modal)
+- Logout button and session handling in UI
+- Expense Management UI (create, edit, delete forms)
+- Live Search (real-time filtering in UI)
+- Category Filtering (frontend filter controls)
+- Monthly History View (UI display of grouped data)
+- Spending Trend Analytics (chart rendering)
+- Category Breakdown Analytics (visual charts/dashboard layout)
+- Admin Dashboard UI (table layout, buttons, display of users and activity logs) |
+|---|---|
+|Tracy Liu| - User authentication (JWT token generation & verification)
+- Password hashing and secure login logic (bcrypt)
+- User registration and login API
+- Expense CRUD API (create, read, update, delete)
+- Data filtering and querying (search, category, month)
+- Analytics data processing (trend + category breakdown data)
+- Admin APIs (fetch users, delete users, fetch activity logs)
+- Activity logging system (record login/logout and CRUD actions)
+- Database management (MongoDB collections + schemas) |
