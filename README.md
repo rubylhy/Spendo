@@ -117,7 +117,8 @@ Ruby Lee
 - Monthly History View (UI display of grouped data)
 - Spending Trend Analytics (chart rendering)
 - Category Breakdown Analytics (visual charts/dashboard layout)
-- Admin Dashboard UI (table layout, buttons, display of users and activity logs) |
+- Admin Dashboard UI (table layout, buttons, display of users and activity logs) 
+
 Tracy Liu 
 - User authentication (JWT token generation & verification)
 - Password hashing and secure login logic (bcrypt)
@@ -127,4 +128,4 @@ Tracy Liu
 - Analytics data processing (trend + category breakdown data)
 - Admin APIs (fetch users, delete users, fetch activity logs)
 - Activity logging system (record login/logout and CRUD actions)
-- Database management (MongoDB collections + schemas) |
+- Database management (MongoDB collections + schemas) 
