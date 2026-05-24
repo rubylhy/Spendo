@@ -104,7 +104,7 @@ Spendo/
 ## 5. Workload Allocation
 
 ### App Feature Workload Allocation
-Ruby Lee 
+Hiu Ying Lee (Ruby) 
 - Registration/Login UI (form, validation, login modal)
 - Logout button and session handling in UI
 - Expense Management UI (create, read, update, delete forms)
@@ -114,7 +114,7 @@ Ruby Lee
 - Category Breakdown Analytics (visual charts layout)
 - Admin Dashboard UI (display of users and activity logs) 
 
-Tracy Liu 
+Jielin Liu (Tracy)
 - User authentication (JWT token generation & verification)
 - Password hashing and secure login logic (bcrypt)
 - User registration and login API
@@ -127,5 +127,5 @@ Tracy Liu
 
 | Member | Files Written |
 |---|---|
-| Ruby Lee | `frontend/src/App.jsx`, `frontend/src/pages/Dashboard.jsx`, `frontend/src/pages/AdminPage.jsx`, `frontend/src/components/LoginModal.jsx`, `database/expenses.json`, `database/users.json`, `database/activity.json` |
-| Tracy Liu| `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
+| Hiu Ying Lee (ruby) | `frontend/src/App.jsx`, `frontend/src/pages/Dashboard.jsx`, `frontend/src/pages/AdminPage.jsx`, `frontend/src/components/LoginModal.jsx`, `database/expenses.json`, `database/users.json`, `database/activity.json` |
+| Jielin Liu (Tracy) | `backend/main.py`, `backend/auth.py`, `backend/database.py`, `backend/models.py`, `backend/routers/users.py`, `backend/routers/expenses.py` |
