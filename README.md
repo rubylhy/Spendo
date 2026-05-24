@@ -104,7 +104,11 @@ Spendo/
 ## 5. Workload Allocation
 
 ### App Feature Workload Allocation
+<<<<<<< HEAD
 Hiu Ying Lee (Ruby)
+=======
+Hiu Ying Lee (Ruby) 
+>>>>>>> b242b99d7e2a0b54b801235425de3dff12e12a72
 - Registration/Login UI (form, validation, login modal)
 - Logout button and session handling in UI
 - Expense Management UI (create, read, update, delete forms)
